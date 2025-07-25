@@ -9,11 +9,14 @@
     color: #f9faf8;
     justify-content: space-around;
     gap: 20px;
-    padding: 40px;
-    font-weight: 900;
-    margin: 0;
+    padding: 40px 90px;
+    
 }
 
 .link-one {
     margin-left: auto;
+}
+
+.logo {
+    font-weight: 900;
 }
