@@ -60,6 +60,7 @@
     justify-content: center;
     align-items: center;
     width: 300px;
+    flex-shrink: 0;
 }
 
 .information {
@@ -96,10 +97,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 120px;
+    width: 150px;
     gap: 10px
 }
 
 .subtext {
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 200px;
+    background-color: #e5e7eb;
+    font-style: light italic;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-from {
+    align-self: flex-end;
+    font-weight: 900;
 }
