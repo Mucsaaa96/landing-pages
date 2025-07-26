@@ -40,3 +40,24 @@
     font-size: 48px;
     font-weight: 900;
 }
+
+.paragraph {
+    font-size: 14px;
+    filter: contrast(50%);
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    width: fit-content;
+    border-radius: 10%;
+    font-weight: 900s;
+}
+
+.right {
+    background-color: #868b96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
