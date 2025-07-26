@@ -50,7 +50,7 @@
     background-color: #3882f6;
     padding: 5px 20px;
     width: fit-content;
-    border-radius: 10%;
+    border-radius: 5px;
     font-weight: 900s;
 }
 
@@ -123,4 +123,32 @@
 .quote-from {
     align-self: flex-end;
     font-weight: 900;
+}
+
+.last-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.last-header {
+    font-weight: 900;
+}
+
+.last-text {
+    filter: contrast(70%);
+}
+
+.last-button {
+    flex-shrink: 0;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
 }
