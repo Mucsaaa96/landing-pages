@@ -9,7 +9,7 @@
     color: #f9faf8;
     justify-content: space-around;
     gap: 20px;
-    padding: 20px 90px;  
+    padding: 20px 150px;  
 }
 
 .link-one {
@@ -17,5 +17,26 @@
 }
 
 .logo {
+    font-weight: 900;
+}
+
+.second-line {
+    background-color: #1f2934;
+    color: #f9faf8;
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.small-header {
+    font-size: 48px;
     font-weight: 900;
 }
